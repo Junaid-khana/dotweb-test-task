@@ -24,7 +24,7 @@ export const CheckListEn = ({ isAlertVisible }) => {
             <div className="video-topSection">
               <div className="check-leftTop-Right">
                 <div>
-                  <img src="/images/MidLeft.png" />
+                  <img src="/images/midRight.png" />
                 </div>
                 <div>
                   <img src="/images/midRight.png" />
