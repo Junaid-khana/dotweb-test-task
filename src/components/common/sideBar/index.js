@@ -43,7 +43,7 @@ export const SideBar = ({ setSelectedComp, selectedComp }) => {
         </div>
         <div className="logo">
           {/* <Logo /> */}
-          <img src="/images/part_1.png" />
+          <img src="/images/part1.png" />
         </div>
         <div className="buttons-container">
           {sideBarButtonsData?.map((item, idx) => (
