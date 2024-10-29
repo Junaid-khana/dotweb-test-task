@@ -411,7 +411,7 @@
   color: white;
   max-width: 256px;
   border-radius: 10px;
-
+max-height: 80px;
 }
 
 .profile-image {
@@ -422,6 +422,7 @@
 .profile-image>img {
   width: 100%;
   height: 100%;
+  border-radius: 10px 0px 0px 10px;
 }
 .profile-textBox{
   display: flex;
@@ -436,6 +437,7 @@ margin-bottom: 4px;
   font-size: 18px;
   line-height: 18px;
   color: white;
+  margin-top: 8px;
 }
 .profile-text-section{
   margin : 8px;
