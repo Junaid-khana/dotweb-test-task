@@ -64,10 +64,11 @@ export const SideBar = ({ setSelectedComp, selectedComp }) => {
               {ratingStarsIcons?.map((item, index) => (
                 <div
                   key={index}
-                  className={`${index === ratingStarsIcons.length - 1
+                  className={`${
+                    index === ratingStarsIcons.length - 1
                       ? "bg-change"
                       : "stars"
-                    }`}
+                  }`}
                 >
                   {item?.svg}
                 </div>

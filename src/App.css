@@ -11,7 +11,7 @@
 }
 
 .app-sapce {
-  margin:  auto;
+  margin: auto;
   height: 100dvh;
   display: flex;
   justify-content: center;
@@ -64,7 +64,7 @@
   border-radius: 20px;
 }
 
-.sideBarTop-button>p {
+.sideBarTop-button > p {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   font-size: 10px;
@@ -72,8 +72,6 @@
   color: #003f52;
   margin: 0px;
 }
-
-
 
 .common-button {
   display: flex;
@@ -131,7 +129,7 @@
   align-items: center;
 }
 
-.button-heading>h3 {
+.button-heading > h3 {
   font-family: "Nunito", sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -249,7 +247,7 @@
   width: 100%;
 }
 
-.not-found>p {
+.not-found > p {
   font-weight: 700;
   color: red;
   font-size: 40px;
@@ -397,13 +395,13 @@
   background-color: #f0f0f0;
   /* Change on hover */
 }
-.profile-container{
+.profile-container {
   display: flex;
   justify-content: center;
   margin: 8px 8px;
 }
 .profile {
-  background-color: #459E97;
+  background-color: #459e97;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -411,7 +409,7 @@
   color: white;
   max-width: 256px;
   border-radius: 10px;
-max-height: 80px;
+  max-height: 80px;
 }
 
 .profile-image {
@@ -419,28 +417,28 @@ max-height: 80px;
   height: 80.35px;
 }
 
-.profile-image>img {
+.profile-image > img {
   width: 100%;
   height: 100%;
   border-radius: 10px 0px 0px 10px;
 }
-.profile-textBox{
+.profile-textBox {
   display: flex;
   align-items: center;
   padding-bottom: 8px;
 }
-.profile-heading  {
+.profile-heading {
   font-family: "Plus Jakarta Sans", sans-serif;
-margin: 0px;
-margin-bottom: 4px;
+  margin: 0px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 18px;
   color: white;
   margin-top: 8px;
 }
-.profile-text-section{
-  margin : 8px;
+.profile-text-section {
+  margin: 8px;
 }
 .profile-textBox > p {
   max-width: 208px;
@@ -499,14 +497,16 @@ margin-bottom: 4px;
 }
 
 .bg-change {
-  background: linear-gradient(90deg,
-      #fea500 0%,
-      #fea500 45.5%,
-      #fea500 49%,
-      #d9d9d9 51.5%,
-      #d9d9d9 99.98%,
-      rgba(33, 150, 83, 0) 99.99%,
-      #d9d9d9 100%);
+  background: linear-gradient(
+    90deg,
+    #fea500 0%,
+    #fea500 45.5%,
+    #fea500 49%,
+    #d9d9d9 51.5%,
+    #d9d9d9 99.98%,
+    rgba(33, 150, 83, 0) 99.99%,
+    #d9d9d9 100%
+  );
   padding: 3.49px 3.47px;
   border-radius: 3px;
 }
@@ -580,7 +580,7 @@ margin-bottom: 4px;
   margin: 8px auto 8px auto;
 }
 
-.footer>p {
+.footer > p {
   font-family: "Inter", sans-serif;
   font-size: 10px;
   line-height: 20px;
@@ -660,7 +660,7 @@ margin-bottom: 4px;
   max-height: 130px;
   overflow-y: auto;
 }
- 
+
 .custom-scrollbar::-webkit-scrollbar {
   width: 8px;
 }

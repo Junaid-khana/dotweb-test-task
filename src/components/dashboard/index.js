@@ -35,9 +35,8 @@ export const Dashboard = ({ setIsAlertVisible, isAlertVisible }) => {
   return (
     <div className="dashboard-container">
       <SideBar setSelectedComp={setSelectedComp} selectedComp={selectedComp} />
-      
+
       {renderComponent()}
-      
     </div>
   );
 };
