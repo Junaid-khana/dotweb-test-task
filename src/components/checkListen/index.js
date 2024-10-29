@@ -9,7 +9,7 @@ export const CheckListEn = ({ isAlertVisible }) => {
       <div
         className={`${
           isAlertVisible ? "top-space" : "add-space"
-        } check-continer`}
+        } check-continer custom-scrollbar `}
       >
         <div className="check-left">
           <div className="check-left-top">

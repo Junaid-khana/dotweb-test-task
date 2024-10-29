@@ -11,11 +11,15 @@
 }
 
 .app-sapce {
-  margin: 76px auto;
+  margin:  auto;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .add-space {
-  margin: 61px auto;
+  margin: 76px auto;
 }
 
 .dashboard-container {
@@ -69,9 +73,7 @@
   margin: 0px;
 }
 
-.buttons-container {
-  margin-top: 36px;
-}
+
 
 .common-button {
   display: flex;
@@ -258,6 +260,9 @@
   display: flex;
   gap: 12.51px;
   margin: 0 auto;
+  max-height: 290px;
+  overflow-y: auto;
+  padding-left: 40px;
 }
 
 .check-continer img {
@@ -392,47 +397,52 @@
   background-color: #f0f0f0;
   /* Change on hover */
 }
-
+.profile-container{
+  display: flex;
+  justify-content: center;
+  margin: 8px 8px;
+}
 .profile {
-  background-color: #459e97;
-  border: 3px solid rgba(5, 89, 114, 0.19);
+  background-color: #459E97;
   border-radius: 10px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   position: relative;
-  padding-top: 53px;
-  padding-bottom: 25.5px;
-  margin: 60px 16px 17px 16px;
+  color: white;
+  max-width: 256px;
+  border-radius: 10px;
+
 }
 
 .profile-image {
   width: 80.35px;
   height: 80.35px;
-  border: 4.27px solid white;
-  border-radius: 100%;
-  position: absolute;
-  top: -42px;
 }
 
 .profile-image>img {
   width: 100%;
-  border-radius: 100%;
+  height: 100%;
 }
-
-.profile>h2 {
+.profile-textBox{
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+.profile-heading  {
   font-family: "Plus Jakarta Sans", sans-serif;
-
+margin: 0px;
+margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 18px;
-  text-align: center;
   color: white;
 }
-
-.profile>p {
+.profile-text-section{
+  margin : 8px;
+}
+.profile-textBox > p {
   max-width: 208px;
-  margin: 11px 0px;
+  margin: 0px;
   font-family: "Lato", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -512,7 +522,7 @@
 .alert {
   background-color: #459e97;
   border-radius: 10px 10px 0px 0px;
-  padding: 44px 52px 46px 49px;
+  padding: 0 52px 0 49px;
   font-family: "Roboto", sans-serif;
   position: absolute;
   width: 100%;
@@ -557,7 +567,7 @@
 }
 
 .top-space {
-  margin-top: 191px;
+  margin-top: 81px;
 }
 
 .footer {
@@ -565,7 +575,7 @@
   align-items: center;
   justify-content: center;
   gap: 11px;
-  margin: 63px auto 20px auto;
+  margin: 8px auto 8px auto;
 }
 
 .footer>p {
@@ -642,4 +652,27 @@
   .check-left-bottom {
     justify-content: space-between;
   }
+}
+.buttons-container {
+  margin-top: 36px;
+  max-height: 130px;
+  overflow-y: auto;
+}
+ 
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #459e97;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #459e97;
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #459e97 #f1f1f1;
 }

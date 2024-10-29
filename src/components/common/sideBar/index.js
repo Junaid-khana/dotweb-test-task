@@ -5,6 +5,7 @@ import {
   BlueGoogle,
   ChatUi,
   Cross,
+  FooterIcon,
   GreenGoogle,
   Hamburger,
   Logo,
@@ -45,7 +46,7 @@ export const SideBar = ({ setSelectedComp, selectedComp }) => {
           {/* <Logo /> */}
           <img src="/images/part1.png" />
         </div>
-        <div className="buttons-container">
+        <div className="buttons-container custom-scrollbar">
           {sideBarButtonsData?.map((item, idx) => (
             <div key={idx} onClick={() => setSelectedComp(item.id)}>
               <SideBarButton selectedComp={selectedComp} data={item} />
@@ -57,24 +58,16 @@ export const SideBar = ({ setSelectedComp, selectedComp }) => {
         </div>
         <div className="rating-container">
           <div className="rating-top">
-            <div className="google">
-              <div>
-                <RedGoogle />
-              </div>
-              <div className="blue-google">
-                <BlueGoogle />
-              </div>
-            </div>
-            <Bewertungen />
+            <FooterIcon />
+
             <div className="star-container">
               {ratingStarsIcons?.map((item, index) => (
                 <div
                   key={index}
-                  className={`${
-                    index === ratingStarsIcons.length - 1
+                  className={`${index === ratingStarsIcons.length - 1
                       ? "bg-change"
                       : "stars"
-                  }`}
+                    }`}
                 >
                   {item?.svg}
                 </div>

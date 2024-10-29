@@ -3,7 +3,7 @@ import "./App.css";
 import { Dashboard } from "./components/dashboard";
 
 function App() {
-  const [isAlertVisible, setIsAlertVisible  ] = useState(false);
+  const [isAlertVisible, setIsAlertVisible  ] = useState(true);
 
   return (
     <div className={`${isAlertVisible && 'app-sapce'} App`}>
